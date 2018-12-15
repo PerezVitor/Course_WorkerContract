@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Course_WorkerContracts.Entities.Enums
 {
-    class WorkerLevel
+    enum WorkerLevel : int
     {
+        Junior = 0,
+        MidLevel = 1,
+        Senior = 2
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 using Course_WorkerContracts.Entities.Enums;
 using System.Collections.Generic;
-using System.
 
 namespace Course_WorkerContracts.Entities
 {

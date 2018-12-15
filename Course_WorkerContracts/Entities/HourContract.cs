@@ -21,5 +21,10 @@ namespace Course_WorkerContracts.Entities
             ValuePerHour = valuePerHour;
             Hours = hours;
         }
+
+        public double totalValue()
+        {
+            return Hours * ValuePerHour;
+        }
     }
 }
